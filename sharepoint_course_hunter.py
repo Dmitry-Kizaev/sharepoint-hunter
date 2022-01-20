@@ -3,12 +3,12 @@ Needed to be able to study offline"""
 
 import os
 import re
+import tqdm
 import tkinter
 import tkinter.filedialog
 import webbrowser
 from time import sleep
 
-import tqdm
 
 TIMEOUT = 60  # in seconds
 
